@@ -1,0 +1,12 @@
+$def with (form)
+$var title: register
+
+<div class="container">
+  <h5 class="title">The Universe is stretching outwards, and so are our hands.</h5>
+  <hr>
+
+  <form class="register" name="register" method="post" >
+    $:form.render()
+    <!--<input class="button" type="submit" method="post"/>-->
+  </form>
+</div>

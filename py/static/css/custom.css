@@ -1,0 +1,58 @@
+.container {
+	position:relative;
+}
+
+body {
+	margin:auto;
+	margin-top:5%;
+}
+
+.register {
+	margin:auto;
+	margin-top:5%;
+	width:40%;
+}
+
+.header {
+
+	margin-top:4rem;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%
+	display:inline-block;
+}
+
+h5 {
+	margin:0;
+}
+
+#bottom {
+	margin-bottom:2rem;
+}
+
+.buttons {
+	display:table;
+	margin: 0 auto;
+}
+
+.button {
+	/*width:100%;*/
+}
+
+.return {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:62.5%;
+}
+
+a.return {
+	width:50%;
+}
+
+.footer {
+	bottom:-50%;
+	color:#B0B0B0;
+	float:right;
+}

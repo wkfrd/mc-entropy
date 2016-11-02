@@ -1,0 +1,28 @@
+$def with (content)
+<html>
+  <head>
+    <title>$content.title</title>
+
+    <meta charset="utf-8">
+  	<meta name="description" content="">
+  	<meta name="author" content="Colin Wakeford">
+
+		<!-- Mobile Specific Metas
+		---------------------------- -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font
+  	--------- -->
+  	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+		<!-- CSS
+    --------- -->
+		<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="static/css/skeleton.css">
+		<link rel="stylesheet" type="text/css" href="static/css/custom.css">
+  </head>
+
+  <body>
+    $:content
+  </body>
+</html>
